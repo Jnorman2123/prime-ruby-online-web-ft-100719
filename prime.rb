@@ -1,17 +1,17 @@
 
 def prime?(integer)
   i = 3
-  if i == 1 || i = 2
-    return true
-  elsif integer < 0
+  if integer < 0
     return false
-  else while i < integer
+  elsif integer == 1 || integer == 2
+    return true
+  else 
+    while i < integer
       if integer % i == 0
         return false
-      else
+      else 
         i += 1
-      end
-    end
+    end  
   end
-  true
+  true 
 end
