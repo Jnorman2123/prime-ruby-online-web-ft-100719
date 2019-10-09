@@ -1,9 +1,9 @@
 
 def prime?(integer)
   i = 3
-  if integer < 1
+  if integer < 2
     return false
-  elsif integer == 1 || integer == 2
+  elsif integer == 2
     return true
   else
     while i < integer
