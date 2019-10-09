@@ -11,7 +11,7 @@ def prime?(integer)
         return false
       else
         i += 1
-      end 
+      end
     end
   end
   true
