@@ -5,13 +5,13 @@ def prime?(integer)
     return false
   elsif integer == 1 || integer == 2
     return true
-  else 
+  else
     while i < integer
       if integer % i == 0
         return false
-      else 
+      else
         i += 1
-    end  
+    end
   end
-  true 
+  true
 end
