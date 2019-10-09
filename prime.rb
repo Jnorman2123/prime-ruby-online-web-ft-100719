@@ -1,6 +1,6 @@
 
 def prime?(integer)
-  i = 3
+  i = 2
   if integer < 2
     return false
   elsif integer == 2
