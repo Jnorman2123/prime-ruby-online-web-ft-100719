@@ -6,9 +6,9 @@ def prime?(integer)
   else
     while i < integer
       if integer < 0
-        false
+        return false
       elsif integer % i == 0
-        false
+        return false
       else
         i += 1
       end
